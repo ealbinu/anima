@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Publicidad en Internet
+        link(rel="icon" type="image/png" href="favicon.png")
+        link(rel="stylesheet" href="app/app.css")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Offside&family=Work+Sans:wght@300;700&display=swap")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
+        link(rel="stylesheet", href="https://cdn.plyr.io/3.6.2/plyr.css")
+
+    body
+        #app
+            .bg: lottie-player(src="app/i/background.json" background="transparent" loop autoplay preserveAspectRatio="xMinYMax slice")
+
+            
+            .section(): .container: .columns.is-vcentered
+                
+                .column.is-12
+                    h1.has-text-centered.is-size-2 Publicidad en Internet
+                    .textzone.animate__animated.animate__bounceInLeft
+                        videoplayer(path="app/publicidad" :autoplay="true" ref="v1" @completed="ended=true")
+                        .columns.is-vcentered.endtext(v-show="ended")
+                            .column.is-8: p Familiarizarnos con los tipos de publicidad nos permitirá evitar caer en fraudes, pishing y pharming, pero no sólo eso, sino que nos permite hacernos responsables y conscientes del tipo de publicidad que consumimos y nos ayuda a desarrollar pensamiento crítico y toma de decisiones. Te invitamos a contestar el quiz sobre Publicidad en Internet del proyecto Safer Internet:
+                            .column.has-text-centered
+                                a.button(target="_blank" href="https://app.involve.me/siat/advertising-quiz-en").animate__animated.animate__heartBeat
+                                    .button-content Ir al quiz
+                                    lottie-player(src="app/i/button.json" background="transparent" loop autoplay)
+                //.column: Sprites(:s="['manoIzquierda', 'manoIzquierda2']" :speed="4000" anim="animate__animated animate__bounceIn" exitanim="animate__animated animate__bounceOut" path="app/i/c5/cudi5-" ext=".svg" autoplay)
+
+
+        script(src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js")
+        script(src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js")
+        script(src="https://cdn.plyr.io/3.6.2/plyr.js")
+        script(src="app/Sprites.js")
+        script(src="app/videoplayer.js")
+        script(src="app/Sound.js")
+        script(src="app/app.js")
