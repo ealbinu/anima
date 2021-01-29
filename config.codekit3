@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26667",
 "files": {
+	"\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/app\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -224,6 +231,29 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/app\/mundo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/mundo.mp4",
+		"oF": 0
+		},
+	"\/app\/mundo.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/mundo.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/app\/mundo.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/mundo.webm",
+		"oF": 0
 		},
 	"\/app\/publicidad.mp4": {
 		"cB": 0,
