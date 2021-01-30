@@ -232,13 +232,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/app\/mundo.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/app\/mundo.mp4",
-		"oF": 0
-		},
 	"\/app\/mundo.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -248,20 +241,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/app\/mundo.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/app\/mundo.webm",
-		"oF": 0
-		},
-	"\/app\/publicidad.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/app\/publicidad.mp4",
-		"oF": 0
-		},
 	"\/app\/publicidad.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -270,13 +249,6 @@
 		"oAP": "\/publicidad.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/app\/publicidad.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/app\/publicidad.webm",
-		"oF": 0
 		},
 	"\/app\/s\/error.mp3": {
 		"cB": 0,
