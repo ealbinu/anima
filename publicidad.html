@@ -24,13 +24,17 @@
               <h1 class="has-text-centered is-size-2">Publicidad en Internet</h1>
               <div class="textzone animate__animated animate__bounceInLeft">
                 <videoplayer path="app/publicidad" :autoplay="true" ref="v1" @completed="ended=true"></videoplayer>
-                <div class="columns is-vcentered endtext" v-show="ended">
+                <div class="columns is-vcentered endtext is-centered" v-show="ended">
                   <div class="column is-8">
-                    <p>Familiarizarnos con los tipos de publicidad nos permitirá evitar caer en fraudes, pishing y pharming, pero no sólo eso, sino que nos permite hacernos responsables y conscientes del tipo de publicidad que consumimos y nos ayuda a desarrollar pensamiento crítico y toma de decisiones. Te invitamos a contestar el quiz sobre Publicidad en Internet del proyecto Safer Internet:</p>
+                    <p>Familiarizarnos con los tipos de publicidad nos permitirá evitar caer en fraudes, pishing y pharming, pero no sólo eso, sino que nos permite hacernos responsables y conscientes del tipo de publicidad que consumimos y nos ayuda a desarrollar pensamiento crítico y toma de decisiones.
+                      <!--Te invitamos a contestar el quiz sobre Publicidad en Internet del proyecto Safer Internet:-->
+                    </p>
                   </div>
-                  <div class="column has-text-centered"><a class="button animate__animated animate__heartBeat" target="_blank" href="https://app.involve.me/siat/advertising-quiz-en">
-                      <div class="button-content">Ir al quiz</div>
-                      <lottie-player src="app/i/button.json" background="transparent" loop="loop" autoplay="autoplay"></lottie-player></a></div>
+                  <!--.column.has-text-centered
+                  a.button(target="_blank" href="https://app.involve.me/siat/advertising-quiz-en").animate__animated.animate__heartBeat
+                      .button-content Ir al quiz
+                      lottie-player(src="app/i/button.json" background="transparent" loop autoplay)
+                  -->
                 </div>
               </div>
             </div>

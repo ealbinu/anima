@@ -20,7 +20,6 @@ html, body, button, input, optgroup, select, textarea{
     lottie-player{
         width: 100vw;
         height: 100vh;
-
     }
 }
 
@@ -35,6 +34,7 @@ html, body, button, input, optgroup, select, textarea{
     opacity: 0.9;
 }
 .button{
+    display: block;
 	background-color: transparent !important;
 	border: none !important;
 	min-height: 120px;
@@ -279,15 +279,9 @@ body, html, #app{ height: 100%;}
 	font-size: 0.8rem;
 	line-height: 1.2;
 }
-.endtext a {
+.endtext a:not(.button) {
 	margin: 0;
 	padding: 0 20px;
-}
-
-
-
-
-.endtext a {
 	display: inline;
 	padding: 0 4px;
 	background: #381D4B;
