@@ -261,4 +261,18 @@ html,
   border-radius: 4px;
   color: #FDDD68;
 }
+.digitalfamilylogo {
+  display: block;
+  margin: auto auto 10px auto;
+  max-width: 140px;
+}
+.digitalfamilylogo img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .digitalfamilylogo {
+    margin: auto auto 10px auto;
+    max-width: 100px;
+  }
+}
 /*# sourceMappingURL=app.css.map */
